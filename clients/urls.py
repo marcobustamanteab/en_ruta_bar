@@ -8,5 +8,5 @@ router.register(r'clients', views.ClientViewSet, basename='client')
 
 urlpatterns = [
     path('api/v1/', include(router.urls)),
-    path('docs/', include_docs_urls(title='EnrutaBar API'))
+    path('docs/', include_docs_urls(title='API Clientes'))
 ]
